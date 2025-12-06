@@ -14,8 +14,3 @@ This project is an extension library for **LLVM**. The tool takes a `.cpp` sourc
 ## Limitations
 - Inner loops are not counted
 
----
-
-## Notes
-This project is currently under development, and improvements are planned to enhance loop detection and instruction analysis.
-
