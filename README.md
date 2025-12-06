@@ -1,6 +1,21 @@
-This is an extension library of LLVM. This tools takes in a .cpp file as source and counts its line number, number of loops and number of instructions. Issues:
+# LLVM Extension Tool
 
-Does not count the number of instructions properly for all functions
-Limiatation:
+This project is an extension library for **LLVM**. The tool takes a `.cpp` source file as input and analyzes it to provide:
 
-Does not count the inner loops
+- Total line count
+- Number of loops
+- Number of instructions
+
+---
+
+## 🔍 Current Issues
+- Instruction count is not accurate for all functions
+
+## ⚠️ Limitations
+- Inner loops are not counted
+
+---
+
+## 📌 Notes
+This project is currently under development, and improvements are planned to enhance loop detection and instruction analysis.
+
